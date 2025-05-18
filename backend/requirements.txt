@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+python3-saml
+python-jose
+requests
+lxml==4.9.3
+xmlsec==1.3.13
+python-multipart

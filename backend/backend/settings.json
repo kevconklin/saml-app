@@ -1,0 +1,29 @@
+{
+    "strict": true,
+    "debug": true,
+    "sp": {
+      "entityId": "http://localhost:8000/metadata/",
+      "assertionConsumerService": {
+        "url": "http://localhost:8000/sso/acs/",
+        "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+      },
+      "singleLogoutService": {
+        "url": "http://localhost:8000/sso/sls/",
+        "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+      },
+      "x509cert": "MIIDazCCAlOgAwIBAgIUX2vnKBuWeIl1glWo5lVhMZCHueowDQYJKoZIhvcNAQELBQAwRTELMAkGA1UEBhMCVVMxEzARBgNVBAgMClNvbWUtU3RhdGUxITAfBgNVBAoMGEludGVybmV0IFdpZGdpdHMgUHR5IEx0ZDAeFw0yNTA1MTgxNDI1MjJaFw0yNjA1MTgxNDI1MjJaMEUxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApTb21lLVN0YXRlMSEwHwYDVQQKDBhJbnRlcm5ldCBXaWRnaXRzIFB0eSBMdGQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCwl3IbMGxAWJ3+6q62Lw8McZrDWGLovs8Cfg3aMx16N7OdzAsEw98JPUeYrmRFAUJYD1prgbeObj14BNlWiJwPIyKDwu/S92cTvYSopHFfH3hg1hLqiqJfgN1fyyZWUqZ0H6LO9C4ZhHluI/PikYiQrA+AldVOlIO/DZoaf4S0Rd9WHQNGMnPtOO1XDT9AaZK6eaa0kEEp94P3R2Hpq2puO1SIA6YwCv8veDD2Wl2tCjewAx68uJJleSHLd0AMAFB4ezODTHArlHH+Vbo0vynpNQzogAZ56q1oJo1oSeW5x21iq9SDVaTl38lrhVbaz8jTiPOWxvZuI3ldiB5Gk89fAgMBAAGjUzBRMB0GA1UdDgQWBBQPuCP44k2QJwPUUisEYTQ0fRbxcjAfBgNVHSMEGDAWgBQPuCP44k2QJwPUUisEYTQ0fRbxcjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQARcn4ddh3GjFHj2SixP2Z6OIMTauv10HzgLJ0dEiPvcFJ3Yqbad5gwDJYyds5f178BRSuQFWPkklOJPX8HstYWrM5Ok8EzJskX5DnhZNhym941BmkT6XPfYCGj8GX+z1q/R00A5HKcZXHIcEILH3B+o/Ck3a4+aMV7qkJ7Vi601pRbAlhLt3ac8OCckVq2/RUqIwxYxgzefAQ+cMUKxwmpD0N8oUM57guAjaqM4QCg+Rpv+MTUcacc1etmpJF6sfVpcHG/8eyq+r2GOzPD4O3WSCc+KzAP+EmeXJjtQTGuIWm1mMlc/eJ0eNOPaKSB1AT3LBW5aQ/wYhuAIdW86gth",
+      "privateKey": "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCwl3IbMGxAWJ3+6q62Lw8McZrDWGLovs8Cfg3aMx16N7OdzAsEw98JPUeYrmRFAUJYD1prgbeObj14BNlWiJwPIyKDwu/S92cTvYSopHFfH3hg1hLqiqJfgN1fyyZWUqZ0H6LO9C4ZhHluI/PikYiQrA+AldVOlIO/DZoaf4S0Rd9WHQNGMnPtOO1XDT9AaZK6eaa0kEEp94P3R2Hpq2puO1SIA6YwCv8veDD2Wl2tCjewAx68uJJleSHLd0AMAFB4ezODTHArlHH+Vbo0vynpNQzogAZ56q1oJo1oSeW5x21iq9SDVaTl38lrhVbaz8jTiPOWxvZuI3ldiB5Gk89fAgMBAAECggEACsmdn1qUalPfhviIJrn2NeDkvuUx2Zz6YWEY8Ijp1pL7hnq1+5sJj3NuYb3Zgzuh9WYutF2OvIUwfRnyuu4KdoRDcgAhDWaupc6QgYrWICT4ghXhvvEsHSBupZDv7RsMbxCVrgXNoSJuFpPcrK0ORiQ0qDq+9pds+ulWTiMXFLoL/3VuuhEgN/GtF2gW7+rfQ83vMe+wOfHO9RMYWSfL2BQqhrjW8VHwS2HFPYz6u7/eK/eQuoWysZRGaeajFEWP9NbgxfQoxZme80g7/LeEguICRcOkhe+Fe46q+V4x5SdWaJCGyi0oKxrm1plujf3aIG4q+5PsxWMvrzgOxf6XJQKBgQDagLwx3PwK2VZSvjFPnyVBUBppZIccvUQcCcuqrlZvIpmtsVt4PpvBYr6CehUbaghT5APx8VJgZn1H4ecnFb32Hd4TH8LUrWxpLsCf3h6uz1QS8Y8b1ukLdvZBAkt7DscsLDluk+dxZvGk9X/87/Q5yOnY8czwTyGCDYDe51pJewKBgQDO5XbuSCGDtLYQiV+Cy/Yy3vYVY0pSpcz1ODLTEDl0KF2byIitLnoKZnFSMZHgqyJAJIMca1P1GoOCTDmtq2+Dy8X6xLyezSJXFac+6uF/U+gg0zvXMVfNa0e7XvsrsVk6mcnBTGBmL8uFNVMAXmDoEMX0pV3BGwOPYKuVkLGybQKBgQDY/T1nm1hlgb47P4uC0b3SpbUE8wNGpCKOYZ/zqVxG06qgFmCLAkn1e5VLx+dMKTmJ7geI7qlq+HzztMC0TOAwGSsf/MukH3Fo5zf9yzzXRyfsBB2lfQBEFWip2JiS5XMgR+7lBFa0hJH2yqLG0pjMBd1NR5vJDhxtpfFT65b7HwKBgQCAxLZJxaD+TPnHvwgv6uu3a6dzVlHKsKCouqp/TKjFj936+EuApd2VHX9ILcviLgDqNQ9ZH7+oXDEfZnu7iGimeawl0E6o83l9A+AMu7lPOxTNYUrsOyyvkCacCph+8Cld3JuCcBvLXdHofXDEWPktVksuYcHBTyPfF8aTFvRR3QKBgBPR7jc5PxY80uHBDw9QMIJLFaeKwww9EZIctL2QEkZCtowsmteKL+9OBtoYk4TrL4x3SSjCyQEfKwzPRJxug7mkDrnhV4cOJH5Z5lqaG0jxUeC8LOhUQ2bBxjwODU1lNIOox2lrOAPgxSmihqf3n/XUMQic14H/Kzgi/9yq/kd9"
+    },
+    "idp": {
+        "entityId": "https://sts.windows.net/c4ff7af7-685a-4825-b2e4-1e8a7dc4c163/",
+        "singleSignOnService": {
+            "url": "https://login.microsoftonline.com/c4ff7af7-685a-4825-b2e4-1e8a7dc4c163/saml2",
+            "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+        },
+        "singleLogoutService": {
+            "url": "https://login.microsoftonline.com/c4ff7af7-685a-4825-b2e4-1e8a7dc4c163/saml2",
+            "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+        },
+        "x509cert": "MIIC8DCCAdigAwIBAgIQIIokD1symaRAFSyy+eCmgzANBgkqhkiG9w0BAQsFADA0MTIwMAYDVQQDEylNaWNyb3NvZnQgQXp1cmUgRmVkZXJhdGVkIFNTTyBDZXJ0aWZpY2F0ZTAeFw0yNTA1MTgxNDM0MzBaFw0yODA1MTgxNDM0MzBaMDQxMjAwBgNVBAMTKU1pY3Jvc29mdCBBenVyZSBGZWRlcmF0ZWQgU1NPIENlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw8WWZD8161HyveDF1+yhMJxLYmlh5MapSGVX0Wem7CyypYXPJ/qfXB+wWAShWkwmZeBULSfLf7wgirNqDtd3WjvHxH/CWbh4wDryNl/eoHUIY3kHALsvQfgZjpqhhYScaacYA5+21odrvZJuFmc7sIfvDbHBTZebJUlM0Uq2FnrYFJBHN7bYGJxzQaNTlh4V27Epcbhposw8NShfM2ywJskhLQRLfh/slfisFqEIvVmZj/odihfXOgYmoiMtyYoq3G6YCYyNnqEGok9Suv3vTiYRE7jIQzOB7EeID5FhefJgIpu7Kg+eba01jkVmaXlpWA3rV9zYfQh4SAouKeKPTQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQCGpL6jDrv+rLasvnGcriJltsfjlKLaWSKOWwCZbRyHyp9NSEpdNUdrm2N+cSYDtRodtYQT8lG1cWGfT2Rhuh0+dMy73lvCq7wghgGUC8WUcQoMlA7aiw4c19GazvSRRQAp3fsiCK8VjSJKphjl3krzo396l4Hj1hhJAaPTZ+hkh355huE+zDId7V7lWsH9EWgSt1MqqSmBrbI5USh77ehLk14JKHu2mcUycZiBGM7LMrnU8BFSVL3gwPZ09ZXSLiWIUIksVTHZtv2Y38ARKjdxQYrzXjQNvjGG1wX/wZ2pgHU9Xqbhrx8XOAxcEMlAWlY8BAVRDW4hPe0MJYXyAmtl"
+        }
+    }
